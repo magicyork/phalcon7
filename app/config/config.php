@@ -10,9 +10,9 @@ return new \Phalcon\Config([
     'database' => [
         'adapter'     => 'Mysql',
         'host'        => 'localhost',
-        'username'    => 'root',
-        'password'    => '',
-        'dbname'      => 'store',
+        'username'    => 'www_phalcon7_cc',
+        'password'    => 'BxB8CfMTnG',
+        'dbname'      => 'www_phalcon7_cc',
         'charset'     => 'utf8',
     ],
     'application' => [
@@ -24,6 +24,7 @@ return new \Phalcon\Config([
         'pluginsDir'     => APP_PATH . '/plugins/',
         'libraryDir'     => APP_PATH . '/library/',
         'cacheDir'       => BASE_PATH . '/cache/',
-        'baseUri'        => '/store/',
+        //'baseUri'        => '/store/',
+        'baseUri'        => '',
     ]
 ]);
